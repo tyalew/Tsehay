@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 3
+   Case Problem 1
+   
+   Tsehay Coffee Home Page
+   Author: Tsehay Yalew
+   Date:   January 29, 2024
+   
+   Filename: tc_home.html
+   -->
+
+   <meta charset="utf-8" >
+   <title>Tsehay Coffee</title>
+   <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+   <header>
+      <section class="mainnav">
+         <div id="Centerhead">
+            <h1>Tsehay Coffee and Bakery Shop</h1>
+            <img id="logo" src="tc_logo.png" alt="Tsehay Coffee"> 
+         </div>
+
+         <nav >
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="menu.html">Menu</a></li>
+               <li><a href="order.html">Order</a></li>
+               <li><a href="blog.html">Blog</a></li>
+               <li><a href="shop.html">Shop</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="contact.html">Contuct Us</a></li>
+               <li><a href="location.html">Location</a></li>  
+            </ul>
+         </nav>
+      </section>
+   </header>
+
+   <main>
+      <form  method="post">
+         <section class ="formheading">
+            <h2>Contact Information</h2>
+            <p>Please enter Your Contact Information</p>    
+            <fieldset>
+               <label for="name"><strong>Full Name </strong> </label> <br>
+               <input id="name" type="text" name="name" placeholder="First and last Name"><br>
+               <label for="email"><strong>Email</strong> </label><br>
+               <input id="email" type="email"  placeholder="example@domain.com"><br>
+               <label for="tel"> <strong>Phone Number</strong></label><br>
+               <input id="tel" type="tel" name="phone" placeholder="111-111-1111">
+            </fieldset>
+         </section>
+
+         
+         <section>
+            <h2>Shipping</h2>
+            <p>Please enter Your Delivery Address</p>    
+            <fieldset>
+               <label for="street"><strong>Street Address </strong></label> 
+               <input id="street" type="text" name="street" placeholder="street" aria-required="true">
+               <label for="city"><strong>City</strong> </label>
+               <input id="city" type="text"  placeholder="Alexandria">
+               <select name="state" id="state">
+               <option value="" selected="selected">Select a State</option>
+               <option value="AL">Alabama</option>
+               <option value="AK">Alaska</option>
+               <option value="AZ">Arizona</option>
+               <option value="AR">Arkansas</option>
+               <option value="CA">California</option>
+               <option value="CO">Colorado</option>
+               <option value="CT">Connecticut</option>
+               <option value="DE">Delaware</option>
+               <option value="DC">District Of Columbia</option>
+               <option value="FL">Florida</option>
+               <option value="GA">Georgia</option>
+               <option value="HI">Hawaii</option>
+               <option value="ID">Idaho</option>
+               <option value="IL">Illinois</option>
+               <option value="IN">Indiana</option>
+               <option value="IA">Iowa</option>
+               <option value="KS">Kansas</option>
+               <option value="KY">Kentucky</option>
+               <option value="LA">Louisiana</option>
+               <option value="ME">Maine</option>
+               <option value="MD">Maryland</option>
+               <option value="MA">Massachusetts</option>
+               <option value="MI">Michigan</option>
+               <option value="MN">Minnesota</option>
+               <option value="MS">Mississippi</option>
+               <option value="MO">Missouri</option>
+               <option value="MT">Montana</option>
+               <option value="NE">Nebraska</option>
+               <option value="NV">Nevada</option>
+               <option value="NH">New Hampshire</option>
+               <option value="NJ">New Jersey</option>
+               <option value="NM">New Mexico</option>
+               <option value="NY">New York</option>
+               <option value="NC">North Carolina</option>
+               <option value="ND">North Dakota</option>
+               <option value="OH">Ohio</option>
+               <option value="OK">Oklahoma</option>
+               <option value="OR">Oregon</option>
+               <option value="PA">Pennsylvania</option>
+               <option value="RI">Rhode Island</option>
+               <option value="SC">South Carolina</option>
+               <option value="SD">South Dakota</option>
+               <option value="TN">Tennessee</option>
+               <option value="TX">Texas</option>
+               <option value="UT">Utah</option>
+               <option value="VT">Vermont</option>
+               <option value="VA">Virginia</option>
+               <option value="WA">Washington</option>
+               <option value="WV">West Virginia</option>
+               <option value="WI">Wisconsin</option>
+               <option value="WY">Wyoming</option>
+            </select>
+
+            <label for="zip"><strong>Zip Code</strong></label>
+            <input id="zip" type="text"  pattern="^\s*?\d{5}(?:[-\s]\d{4})?\s*?$">
+         </fieldset>
+      </section>
+
+      <section>
+         <h2>Payment Type</h2>
+         <p>Please enter Your Payment method</p>
+
+         <fieldset>
+            <select name="card" id="card">
+               <option value="" selected="selected">Select Your Card Type</option>
+               <option value="MA">MASTER CARD</option>
+               <option value="VS">VISA</option>
+               <option value="AE">AMERICAN EXPRESS</option>
+               <option value="DS">DISCOVERY</option>
+            </select>
+
+            <label for="cNumber">Card Number </label> 
+            <input id="cNumber" type="text" name="cNumber" placeholder="xxxx xxxx xxxx xxxx" required >              
+            <label for="cName"> Name On Card </label> 
+            <input id="cName" type="text" name="cName"  placeholder="Name on Card" required >
+            <label for="crdexpdate">Expired Date </label> 
+            <input id="crdexpdate" type="text" name="crdexpdate"  placeholder="MM/YY" maxlength="5" required >              
+            <label for="cvvCode">Expired Date</label> 
+            <input id="cvvCode" type="text" name="cvvCode" placeholder="back of card, 3 digits number">
+         </fieldset>
+      </section>
+
+      <div class="grid">
+         <div class="comment">
+            <label for="message">Message</label><br>
+            <textarea id="message" ></textarea><br>
+         </div>
+
+         <input type="submit" name="submit" value="Submit">
+      </div>
+   </form>
+
+   <address>
+      Tsehay Coffee & Bakery &#9830;
+      1900 S Eads Street &#9830;
+      Arlington, VA  22202 &#9830;
+      (571) 276-9904 
+   </address>
+</main>
+
+<footer>
+   Tsehay &amp; Coffee and Bakery Shop : &copy; Copyright @ 2024
+</footer>
+
+</body>
+</html>
+
+

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 3
+   Case Problem 1
+   
+   Tsehay Coffee Home Page
+   Author: Tsehay Yalew
+   Date:   January 29, 2024
+   
+   Filename: tc_home.html
+   -->
+   <meta charset="utf-8" >
+   <title>Tsehay Coffee</title>
+   <link rel="stylesheet" href="stylesheet.css">
+
+    <script src="style.js" async></script>
+    
+
+</head>
+
+<body>
+    <header>
+        <section class="mainnav">
+            <div id="Centerhead">
+            <h1>Tsehay Coffee and Bakery Shop</h1>
+            <img id="logo" src="tc_logo.png" alt="Tsehay Coffee"> 
+        </div>
+        
+        <nav >
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contuct Us</a></li> 
+                <li><a href="location.html">Location</a></li>
+            </ul>
+        </nav>
+        </section>
+    
+    </header>
+
+    <main>
+        <div class=shop>
+            <section class="CoffeeMug">
+                <h2>Coffee Mug</h2>
+                <img src="coffeeM.jpg" alt="Ethiopian Coffee served with cup" >
+                <p>$9.99</p>
+            </section>
+
+            <section class="CoffeeCup">
+                <h2>Coffee Cup</h2>
+                <img src="tc_cup.png" alt="Ethiopian Coffee served with cup" >
+                <p>$6.88</p>
+               
+            </section>
+
+            <section class="RostedCoffee">
+                <h2>Rosted Coffee</h2>
+                <img src="tc_rosted.jpg" alt="Ethiopian Coffee served with cup" >
+                <p>$12.99</p>
+            </section>
+
+            <section class="t-shert">
+                <h2>T-Shert</h2>
+                <img src="cft1.jpg" alt="Ethiopian Coffee served with cup" >
+                <p>$15.99</p>
+            </section>
+
+            <section class="EthiopianCoffee">
+                <h2> Ethiopian Coffee</h2>
+                <img src="tc_photo9.png" alt="Ethiopian Coffee served with cup" >
+                <p>$5.99</p>
+            </section>
+
+            <section class="ServingCoffee">
+                <h2> Serving Ethiopian Coffee</h2>
+                <img src="tc_photo5.png" alt="Ethiopian Coffee served with cup" >
+                <p>$4.99</p>
+            </section>
+
+            <section class="AbolCoffee">
+                <h2>  Abol Coffee</h2>
+                <img src="tc_photo8.png" alt="Ethiopian Coffee smoke" >
+                <p>$5.99</p>
+            </section>
+
+            <section class="EthiopianBuna">
+                <h2>  Ethiopian Buna</h2>
+                <img src="tc_photo10.png" alt="Ethiopian Coffee smoke" >
+                <p>$3.99</p>
+            </section>
+
+ 
+ <main>
+      <div class="main">
+        
+
+      
+
+
+         
+    </div>
+
+   <!--  <address>
+         Tsehay Coffee & Bakery &#9830;
+         1900 S Eads Street &#9830;
+         Alexandria, VA  22314 &#9830;
+         (571) 276-9904 
+    </address> -->
+   </main>
+</div>
+
+<form id="#">
+    <h2>Order Calculator</h2>
+    <label for="item-type">Item Type:</label>
+
+    <select id="Item-type">
+    <option value="CoffeeMug">Coffee Mug ($9.99)</option>
+    <option value="CoffeeCup">Coffee Cup ($6.88)</option>
+    <option value="Rosted Coffee">Rosted Coffee ($12.99)</option>
+    <option value="T-shert">T-Shert ($15.99)</option>
+    <option value="ServingCoffee">Serving Ethiopian Coffee ($4.99)</option>
+    <option value="AbolCoffee">Abol Coffee ($5.99)</option>
+    <option value="EthiopianBuna">Ethiopian Buna ($6.88)</option>
+
+</select><br>
+
+<section>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" min="1" value="1"><br>
+    <label for="size">Size:</label>
+    <select id="size">
+        <option value="small">Small </option>
+        <option value="medium">Medium </option>
+        <option value="large">Large </option>
+    </select><br>
+</section>
+
+    <button type="button" onclick="calculateCost()">Calculate Cost</button>
+    <p id="result"></p>
+</form>
+
+<button onclick="window.location.href='order.html';">
+    Click Here
+</button>
+        
+<address>
+    Tsehay Coffee & Bakery &#9830;
+    1900 S Eads Street &#9830;
+    Arlington, VA  22202 &#9830;
+    (571) 276-9904 
+</address>
+     
+</main>
+
+<footer>
+
+    Tsehay &amp; Coffee and Bakery Shop ; &copy; Copyright @ 2024
+</footer>
+</body>
+</html>

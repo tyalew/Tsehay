@@ -1,0 +1,553 @@
+html {
+    height: 100%;
+    background:#000000;
+}
+
+body {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+#Centerhead{
+	display: flex;
+	flex-direction: row-reverse;
+
+}
+#Centerhead #logo{
+	display: block;
+	padding-top: 20px;
+	margin-left: 10px;
+	
+}
+#Centerhead h1{
+	display: inline-block; 
+	width:55%;
+}
+.mainnav{background-color: #1CCD1C;
+		display: block;
+		color: #fff;
+}
+
+h1{
+	text-align: center;
+	padding-top: 10px;
+}
+#logo{
+	width:5%;
+	display: flex;
+	align-items: end;
+	padding-right: 20px;
+
+
+}
+nav{
+	display:flex;
+	background: #1CCD1C;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+ul {
+  list-style-type: none;
+	margin: 0;
+   padding: 0;
+  overflow: hidden;
+}
+
+li {
+	display: inline;
+	float: left;
+	width:50x;
+	height:30px;
+	border:1px solid black;
+	margin-bottom: 20px;
+	padding: 20px;
+	background: #B57610;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2em; 
+}
+
+li a:hover {
+  background-color: #1CCD1C;
+}
+
+ img {
+    display: block;
+    width:60%;
+    height:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#drink{
+	width:90%;
+	margin:10px 20px;
+	padding-right: 20px;
+}
+.main{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.cup{
+	display: block;
+	flex-direction: row;
+	background: #B57610;
+}
+.cup img{
+		float: left;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-bottom: 10px;
+}
+.cup h2{
+		text-align: center;
+		color: white;
+}
+.cup p{
+   text-align: left;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    color: white;
+}
+.smoke{
+	display: block;
+	flex-direction: row;
+	background: #B57610;
+}
+.smoke img{
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.smoke h2{
+		text-align: center;
+		color: white;
+}
+.smoke p{
+   text-align: left;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    color: white;
+}
+footer {
+   color: #fff;
+   background-color: #1CCD1C;
+   font-size: 0.9em;
+   padding: 20px 0px;
+   text-align: center;
+   }
+
+.menu{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+}
+.coffee{
+	display: block;
+	flex-direction: row;
+	background: #B57610;
+}
+.bakery{
+	display: block;
+	flex-direction: row;
+	background: #B57610;
+}
+.coffee img{
+		float: left;
+		width:90%;
+		margin-left: 30px;
+		padding-top: 20px;
+		height: 70%;
+}
+.coffee h2{
+		text-align: center;
+		color: white;
+		padding-bottom: 20px;
+		padding-top: 20px;
+}
+.bakery img{
+		float: left;
+		width:90%;
+		margin-left: 30px;
+		padding-top: 30px;
+		height: 70%;
+}
+.bakery h2{
+		text-align: center;
+		color: white;
+		padding-bottom: 20px;
+		padding-top: 20px;
+}
+.jebena{
+	display: block;
+	flex-direction: row;
+	background: #B57610;
+}
+.roastedcoffee{
+	display: block;
+	flex-direction: row;
+	background: #B57610;
+}
+.jebena img{
+		float: left;
+		width:90%;
+		margin-left: 30px;
+		padding-top: 20px;
+		height: 70%;
+}
+.jebena h2{
+		text-align: center;
+		color: white;
+		padding-bottom: 20px;
+		padding-top: 20px;
+}
+.roastedcoffee img{
+		float: left;
+		width:90%;
+		margin-left: 30px;
+		padding-top: 20px;
+		height: 70%;
+}
+.roastedcoffee h2{
+		text-align: center;
+		color: white;
+		padding-bottom: 20px;
+		padding-top: 20px;
+}
+form {
+		background: #B57610;
+		padding-top: 20px;
+}
+fieldset {
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	Width:50%;
+	height: auto;
+	padding-left: 20px;
+}
+label {
+	color: white;
+}
+
+input {
+	width: 50%;
+	padding: 16px;
+	margin: 10px 0;
+	box-sizing: border-box;
+}
+
+select {
+	width: 50% ;
+	padding: 16px;
+	padding: 16px;
+	margin: 10px 0;
+	box-sizing: border-box;
+
+}
+form h2,form p{
+	color: white;
+	padding-left: 50px;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.comment{
+	display:flex;
+	flex-direction: column;
+
+}
+.comment label{
+	padding-left: 25px;
+	font-weight: bold;
+
+}
+textarea{
+	width: 90%;
+	height: 100px;
+	margin: 0.25em auto 0.5em auto;
+	padding: 0.5em;
+}
+
+input[type="radio"]{
+	margin-top: 0.4em;
+	outline: none;
+	border: 1px solid #222;
+	border-radius: 25%;
+}
+
+input[type="submit"]{
+	font-size: 1.2em;
+	width: 95%;
+	margin-top: 1em;
+	padding: 0.5em;
+	border: none;
+	outline: none;
+	border-radius: 0.2em;
+	background-color: #000000;
+	color: white;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus{
+	background-color: #1CCD1C;
+}
+
+/* --------------------- Shop -------------------------- */
+
+.shop{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    background: #B57610;
+    padding: 1em;
+}
+
+.shop p{
+	text-align: center;
+	color: white;
+}
+.shop img{
+	float: left;
+	width:90%;
+	margin-left: 30px;
+	padding-top: 20px;
+	height: 60%;
+}
+
+.shop h2{
+		text-align: center;
+		color: white;
+		padding-bottom: 20px;
+		padding-top: 20px;
+}
+
+
+/*------------------------------order-------------------*/
+
+.order{
+	 
+	display:inline-block;
+/*	background: orange;*/
+  	 color: orange;
+ 	float: right;
+/*   margin-top: 10px;
+   padding-bottom: 10px;*/
+/*  padding: 14px 16px;*/
+  text-decoration: none;
+  font-size: 2em; 
+  	padding-bottom: 20px;
+
+}
+
+/* visited link */
+.order:visited {
+  color: green;
+}
+
+
+
+.order:active {
+  color: blue;
+}
+ button {
+ 	display: flex;
+ 	justify-content: center;
+	font-size: 1.5em;
+	width: 45%;
+/*	margin-top: 1em;*/
+	margin-left: 100px;
+	margin-bottom: 2em;
+	
+	padding: 0.5em;
+	border: none;
+	outline: none;
+	border-radius: 1em;
+	background-color: #000000;
+	color: white;
+}
+ button:hover{
+	 background-color: #1CCD1C;
+	}
+.contactinfo {
+		width:100%;
+		background-color:#B57610;
+		padding-top: 20px;
+	}
+.contactinfo h2{
+		color:white;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+.grid-contact{
+	display:grid ;
+	grid-template-columns: auto auto;
+	color: white;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+/*    justify-content:space-evenly;*/
+    width: 80%;
+    height:auto;
+    margin-left: 20px;
+    padding: 20px;
+    font-weight: bold;
+    margin-left: 0;
+    color: white;
+  
+   
+  }
+  .social-media a svg{
+  	background-color:white;
+  	margin: 20px;
+  }
+
+  .social-media  a{
+    list-style: none;
+    text-decoration: none;
+    display: grid;
+    font-size: 1em;
+    color: white;
+   
+}
+.social-media a svg:hover{
+    background-color:#000000;
+}
+.contact{
+	display: flex;
+	flex-direction: column;
+	 
+}
+#padding input{
+	padding-left: 20px;
+	
+}
+.contact h3{ 
+	color:white;
+	text-align: center;
+	padding-top: 30px;
+	}
+.submit {
+	display: flex;
+	font-size: 1em;
+	width: 25%;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	margin-left: 65%;
+	padding: 0.5em;
+	border: none;
+	outline: none;
+	border-radius: 1em;
+	background-color: #000000;
+	color: white;
+}
+ .submit:hover{
+	 background-color: #1CCD1C;
+	}
+	.blog{
+		 background: #B57610;
+		 padding-top: 25px;
+	}
+	.blog h2{
+		 color:white;
+		 text-align: center;
+	}
+	.blog p{
+  	 text-align: left;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 50px;
+    padding-top: 20px;
+    color: white;
+}
+.quote{
+		 padding-left: 50px;
+		 background-color:  #B57610;
+		 padding-bottom: 25px;
+
+	}
+ q{
+	
+	text-align: left;
+    font-size: 18px;
+    padding-left: 50px;   
+    margin-bottom: 20px;
+    color: white;
+
+	}
+	.quote  button{
+		color:black;
+		background-color: #ffffff;
+		margin-top: 25px;	
+		width:10%;
+	}
+	#footer {
+   color: #fff;
+   background-color: #1CCD1C;
+   font-size: 0.9em;
+   padding: 20px 0px;
+   text-align: center;
+   margin-top: 0px;
+   }
+
+
+
+.about{
+		 background: #B57610;
+		 padding-top: 25px;
+	}
+	.about h2{
+		 color:white;
+/*		 padding-right: 10px;*/
+   		 padding-left: 50px;
+/*		 text-align: center;*/
+	}
+	.about p{
+  	text-align: left;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 50px;
+    padding-top: 20px;
+    color: white;
+}
+
+
+   main{background-color: #B57610;}
+   
+   address {
+   color: white;
+   font-size: 0.9em;
+   padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
